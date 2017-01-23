@@ -13,6 +13,7 @@
 @property(nonatomic, weak) IBOutlet UILabel *showTextLabel;
 @property(nonatomic, weak) IBOutlet UITextField *insertTextField;
 
+-(IBAction)insertTextFieldDidEndOnExit:(id)sender;
 -(IBAction)buttonPressed: (id)sender;
 
 

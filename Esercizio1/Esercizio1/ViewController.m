@@ -38,5 +38,12 @@
     NSLog(@"valore inserito: %@", textToShow);
 }
 
+-(IBAction)insertTextFieldDidEndOnExit:(id)sender {
+    NSString *textToShow = [self.insertTextField text];
+    
+    [self setLabelText:textToShow];
+    
+    NSLog(@"valore inserito: %@", textToShow);
+}
 
 @end
