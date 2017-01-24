@@ -52,7 +52,6 @@
     }
 
     [self setLabeText: [NSString stringWithFormat:@"%i:%i:%i", hours, minutes, seconds]];
-    NSLog(@"timerTick");
 }
 
 
