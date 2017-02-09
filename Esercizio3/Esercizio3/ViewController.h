@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ResultsTableViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <ResultsTableViewDelegate>
 
 @property (nonatomic, weak) IBOutlet UILabel *randomNumberLabel;
 

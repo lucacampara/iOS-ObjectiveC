@@ -13,6 +13,7 @@
 		F803F4671E36500A007B8E76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F803F4651E36500A007B8E76 /* Main.storyboard */; };
 		F803F4691E36500A007B8E76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F803F4681E36500A007B8E76 /* Assets.xcassets */; };
 		F803F46C1E36500A007B8E76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F803F46A1E36500A007B8E76 /* LaunchScreen.storyboard */; };
+		F8050DE81E37AFCB00C90F91 /* ResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8050DE71E37AFCB00C90F91 /* ResultsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F803F4681E36500A007B8E76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F803F46B1E36500A007B8E76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F803F46D1E36500A007B8E76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8050DE61E37AFCB00C90F91 /* ResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsTableViewController.h; sourceTree = "<group>"; };
+		F8050DE71E37AFCB00C90F91 /* ResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				F803F4601E36500A007B8E76 /* AppDelegate.m */,
 				F803F4621E36500A007B8E76 /* ViewController.h */,
 				F803F4631E36500A007B8E76 /* ViewController.m */,
+				F8050DE61E37AFCB00C90F91 /* ResultsTableViewController.h */,
+				F8050DE71E37AFCB00C90F91 /* ResultsTableViewController.m */,
 				F803F4651E36500A007B8E76 /* Main.storyboard */,
 				F803F4681E36500A007B8E76 /* Assets.xcassets */,
 				F803F46A1E36500A007B8E76 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8050DE81E37AFCB00C90F91 /* ResultsTableViewController.m in Sources */,
 				F803F4641E36500A007B8E76 /* ViewController.m in Sources */,
 				F803F4611E36500A007B8E76 /* AppDelegate.m in Sources */,
 				F803F45E1E36500A007B8E76 /* main.m in Sources */,
@@ -307,6 +313,7 @@
 				F803F4721E36500A007B8E76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
